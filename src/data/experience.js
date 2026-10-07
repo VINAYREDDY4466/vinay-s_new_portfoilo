@@ -1,0 +1,48 @@
+// Dummy content — replace with your real experience. Use `end: null` for your current role.
+export const experience = [
+  {
+    id: 'freelance',
+    role: 'Freelance Full-Stack Developer',
+    company: 'Self-employed',
+    companyUrl: '',
+    type: 'Freelance',
+    location: 'Remote',
+    start: 'Jan 2025',
+    end: null,
+    summary: 'Partnering with startups and small businesses to design, build and deploy web products end-to-end.',
+    achievements: [
+      'Delivered 10+ client projects with a 100% on-time record.',
+      'Cut hosting costs by ~40% for clients by right-sizing AWS infrastructure.',
+    ],
+    tech: ['React', 'Node.js', 'AWS'],
+  },
+  {
+    id: 'company-a',
+    role: 'Software Engineer',
+    company: 'Acme Technologies',
+    companyUrl: 'https://example.com',
+    type: 'Full-time',
+    location: 'Hyderabad, India',
+    start: 'Jun 2023',
+    end: 'Dec 2024',
+    summary: 'Built and maintained customer-facing features for a high-traffic SaaS platform.',
+    achievements: [
+      'Improved page load time by 55% through code-splitting and caching.',
+      'Led the migration of a legacy REST API to a modular Node.js service.',
+    ],
+    tech: ['React', 'TypeScript', 'PostgreSQL'],
+  },
+  {
+    id: 'company-b',
+    role: 'Frontend Developer Intern',
+    company: 'Startup Labs',
+    companyUrl: 'https://example.com',
+    type: 'Internship',
+    location: 'Bengaluru, India',
+    start: 'Jan 2023',
+    end: 'May 2023',
+    summary: 'Built reusable UI components and landing pages for early-stage products.',
+    achievements: ['Created a component library used across 4 internal products.'],
+    tech: ['React', 'Tailwind CSS'],
+  },
+];
