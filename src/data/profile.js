@@ -2,13 +2,13 @@
 // Images live in /public/assets (e.g. /public/assets/profile/avatar.jpg → '/assets/profile/avatar.jpg').
 
 export const profile = {
-  name: 'Vinay Reddy Dodlapati ',
-  initials: 'VK',
+  name: 'Vinay Reddy Dodlapati',
+  initials: 'VR',
   role: 'Full-Stack Developer',
-  headline: ['Crafting SAAS, CRMs, E-commerce', 'products that', 'feel alive.'],
+  headline: ['Crafting SAAS, CRMs', 'products that', 'feel alive.'],
   tagline:
     'I design and engineer fast, scalable web applications — from pixel-perfect interfaces to cloud-native backends that just work.',
-  email: 'hello@yourdomain.com',
+  email: 'vinayreddyd4466@gmail.com', 
   location: 'India',
   timeZone: 'Asia/Kolkata',
   avatar: '/assets/profile/avatar.webp',
