@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   // Must match the Worker name in the Cloudflare dashboard.
+  // wrangler.jsonc
   "name": "vinay-s-new-portfoilo",
   "compatibility_date": "2026-10-01",
   "assets": {
