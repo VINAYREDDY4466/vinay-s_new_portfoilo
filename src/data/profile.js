@@ -5,7 +5,7 @@ export const profile = {
   name: 'Vinay Reddy Dodlapati ',
   initials: 'VK',
   role: 'Full-Stack Developer',
-  headline: ['Crafting digital', 'products that', 'feel alive.'],
+  headline: ['Crafting SAAS, CRMs, E-commerce', 'products that', 'feel alive.'],
   tagline:
     'I design and engineer fast, scalable web applications — from pixel-perfect interfaces to cloud-native backends that just work.',
   email: 'hello@yourdomain.com',
