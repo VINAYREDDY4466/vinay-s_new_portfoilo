@@ -16,7 +16,7 @@ export default function Services() {
           description="I help startups and businesses launch reliable digital products. Here's how I can help you."
         />
 
-        <ul className="mt-14 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+        <ul className="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => (
             <Reveal as="li" key={service.id} delay={index * 0.08}>
               <ServiceCard service={service} />

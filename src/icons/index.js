@@ -5,11 +5,13 @@ export {
   PiArrowDownRightBold as ArrowDownRightIcon,
   PiArrowUpBold as ArrowUpIcon,
   PiArrowUpRightBold as ArrowUpRightIcon,
-  PiCalendarDotsBold as CalendarIcon,
+  PiBrowserDuotone as BrowserIcon,
+  PiCaretDownBold as CaretDownIcon,
   PiCheckBold as CheckIcon,
   PiCloudDuotone as CloudIcon,
   PiCodeDuotone as CodeIcon,
   PiCopyBold as CopyIcon,
+  PiDeviceMobileDuotone as MobileIcon,
   PiDownloadSimpleBold as DownloadIcon,
   PiGithubLogoBold as GithubIcon,
   PiHardDrivesDuotone as ServerIcon,
@@ -18,10 +20,13 @@ export {
   PiLockSimpleBold as LockIcon,
   PiMapPinDuotone as MapPinIcon,
   PiMoonDuotone as MoonIcon,
+  PiPaletteDuotone as PaletteIcon,
+  PiRobotDuotone as RobotIcon,
+  PiRocketLaunchDuotone as RocketIcon,
   PiSparkleFill as SparkleIcon,
   PiSunDuotone as SunIcon,
+  PiUsersThreeDuotone as UsersIcon,
   PiWhatsappLogoBold as WhatsappIcon,
-  PiXLogoBold as XIcon,
 } from 'react-icons/pi';
 
-export { SiFiverr as FiverrIcon, SiLeetcode as LeetcodeIcon, SiUpwork as UpworkIcon } from 'react-icons/si';
+export { SiLeetcode as LeetcodeIcon } from 'react-icons/si';

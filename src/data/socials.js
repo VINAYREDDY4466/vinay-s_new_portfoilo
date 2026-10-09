@@ -1,47 +1,33 @@
-import { FiverrIcon, GithubIcon, LeetcodeIcon, LinkedinIcon, UpworkIcon, XIcon } from '../icons';
+import { GithubIcon, LeetcodeIcon, LinkedinIcon } from '../icons';
 
-// Dummy links — replace with your real profile URLs. Entries with an empty or invalid URL are hidden automatically.
+// Entries with an empty or invalid URL are hidden automatically.
 export const socials = [
   {
     id: 'github',
     label: 'GitHub',
-    handle: '@your-username',
-    url: 'https://github.com/your-username',
+    handle: '@VINAYREDDY4466',
+    url: 'https://github.com/VINAYREDDY4466',
+    icon: GithubIcon,
+  },
+  {
+    id: 'github-work',
+    label: 'GitHub (Work)',
+    handle: '@VinayEnculture',
+    url: 'https://github.com/VinayEnculture',
     icon: GithubIcon,
   },
   {
     id: 'linkedin',
     label: 'LinkedIn',
-    handle: 'in/your-profile',
-    url: 'https://www.linkedin.com/in/your-profile',
+    handle: 'in/vinayreddyd',
+    url: 'https://www.linkedin.com/in/vinayreddyd',
     icon: LinkedinIcon,
-  },
-  {
-    id: 'upwork',
-    label: 'Upwork',
-    handle: 'Top Rated Freelancer',
-    url: 'https://www.upwork.com/freelancers/your-id',
-    icon: UpworkIcon,
-  },
-  {
-    id: 'fiverr',
-    label: 'Fiverr',
-    handle: '@your-username',
-    url: 'https://www.fiverr.com/your-username',
-    icon: FiverrIcon,
   },
   {
     id: 'leetcode',
     label: 'LeetCode',
-    handle: '@your-username',
-    url: 'https://leetcode.com/u/your-username',
+    handle: '@CR7_Vinay',
+    url: 'https://leetcode.com/u/CR7_Vinay/',
     icon: LeetcodeIcon,
-  },
-  {
-    id: 'x',
-    label: 'X (Twitter)',
-    handle: '@your-handle',
-    url: 'https://x.com/your-handle',
-    icon: XIcon,
   },
 ];

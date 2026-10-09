@@ -32,7 +32,7 @@ export default function Hero() {
           <Button href="#projects" icon={ArrowDownRightIcon}>
             View my work
           </Button>
-          <Button href={profile.resume} variant="ghost" icon={DownloadIcon} download>
+          <Button href={profile.resume} variant="ghost" icon={DownloadIcon} download={profile.resumeFileName}>
             Download CV
           </Button>
         </motion.div>

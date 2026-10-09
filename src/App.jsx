@@ -1,36 +1,23 @@
+import { lazy, Suspense } from 'react';
 import { MotionConfig } from 'framer-motion';
-import BackgroundEffects from './components/layout/BackgroundEffects';
-import CursorFollower from './components/layout/CursorFollower';
-import Footer from './components/layout/Footer';
-import Navbar from './components/layout/navbar/Navbar';
-import ScrollProgress from './components/layout/ScrollProgress';
-import SkipLink from './components/layout/SkipLink';
-import About from './components/sections/about/About';
-import Contact from './components/sections/contact/Contact';
-import Experience from './components/sections/experience/Experience';
-import Hero from './components/sections/hero/Hero';
-import Projects from './components/sections/projects/Projects';
-import Services from './components/sections/services/Services';
-import Skills from './components/sections/skills/Skills';
+import PortfolioPage from './pages/PortfolioPage';
+import { isAdminPath } from '../shared/routes';
+
+// Admin code is only downloaded when visiting the admin URL.
+const MessagesPage = lazy(() => import('./pages/admin/MessagesPage'));
 
 export default function App() {
+  const isAdmin = isAdminPath(window.location.pathname);
+
   return (
     <MotionConfig reducedMotion="user">
-      <SkipLink />
-      <BackgroundEffects />
-      <ScrollProgress />
-      <CursorFollower />
-      <Navbar />
-      <main id="main">
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Experience />
-        <Services />
-        <Contact />
-      </main>
-      <Footer />
+      {isAdmin ? (
+        <Suspense fallback={null}>
+          <MessagesPage />
+        </Suspense>
+      ) : (
+        <PortfolioPage />
+      )}
     </MotionConfig>
   );
 }

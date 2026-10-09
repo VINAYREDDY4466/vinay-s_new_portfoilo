@@ -25,7 +25,8 @@ export default {
       },
       fontFamily: {
         display: ['Syne', 'system-ui', 'sans-serif'],
-        sans: ['Manrope', 'system-ui', 'sans-serif'],
+        // The flag font only covers flag emoji (unicode-range) and loads only where needed.
+        sans: ['"Twemoji Country Flags"', 'Manrope', 'system-ui', 'sans-serif'],
         mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
       },
       fontSize: {

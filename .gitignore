@@ -4,5 +4,9 @@ dist
 *.local
 .DS_Store
 
+# Cloudflare local state and secrets
+.wrangler
+.dev.vars
+
 # local scratch test files
 test.js

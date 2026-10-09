@@ -4,6 +4,7 @@ import { DownloadIcon } from '../../../icons';
 import Button from '../../ui/Button';
 import Reveal from '../../ui/Reveal';
 import Section from '../../ui/Section';
+import ContactForm from './ContactForm';
 import EmailCopy from './EmailCopy';
 import WorkProfiles from './WorkProfiles';
 
@@ -33,13 +34,17 @@ export default function Contact() {
 
         <Reveal delay={0.3} className="mt-10 flex flex-wrap gap-4">
           {contactChannels.map(({ id, label, url, icon }) => (
-            <Button key={id} href={url} variant={id === contactChannels[0].id ? 'primary' : 'ghost'} icon={icon}>
+            <Button key={id} href={url} variant="ghost" icon={icon}>
               {label}
             </Button>
           ))}
-          <Button href={profile.resume} variant="ghost" icon={DownloadIcon} download>
+          <Button href={profile.resume} variant="ghost" icon={DownloadIcon} download={profile.resumeFileName}>
             Resume
           </Button>
+        </Reveal>
+
+        <Reveal delay={0.36} className="mt-12 max-w-3xl">
+          <ContactForm />
         </Reveal>
 
         <div className="mt-20">
