@@ -25,7 +25,7 @@ function usePrivatePageMeta() {
 
 export default function MessagesPage() {
   usePrivatePageMeta();
-  const { messages, isUnlocked, isLoading, error, unlock, refresh, lock } = useAdminMessages();
+  const { messages, isUnlocked, isLoading, deletingId, error, unlock, refresh, remove, lock } = useAdminMessages();
 
   return (
     <main className="container min-h-screen py-10 md:py-16">
@@ -70,7 +70,12 @@ export default function MessagesPage() {
           ) : (
             <ul className="mt-8 grid gap-4">
               {messages.map((message) => (
-                <MessageCard key={message.id} message={message} />
+                <MessageCard
+                  key={message.id}
+                  message={message}
+                  isDeleting={deletingId === message.id}
+                  onDelete={remove}
+                />
               ))}
             </ul>
           )}

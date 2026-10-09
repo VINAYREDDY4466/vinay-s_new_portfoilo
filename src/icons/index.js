@@ -25,6 +25,7 @@ export {
   PiRocketLaunchDuotone as RocketIcon,
   PiSparkleFill as SparkleIcon,
   PiSunDuotone as SunIcon,
+  PiTrashBold as TrashIcon,
   PiUsersThreeDuotone as UsersIcon,
   PiWhatsappLogoBold as WhatsappIcon,
 } from 'react-icons/pi';

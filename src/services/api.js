@@ -30,6 +30,12 @@ export function sendContactMessage(contact) {
   });
 }
 
+const adminHeaders = (password) => ({ Authorization: `Bearer ${password}` });
+
 export function fetchMessages(password) {
-  return request('/api/messages', { headers: { Authorization: `Bearer ${password}` } });
+  return request('/api/messages', { headers: adminHeaders(password) });
+}
+
+export function deleteMessage(password, id) {
+  return request(`/api/messages?id=${encodeURIComponent(id)}`, { method: 'DELETE', headers: adminHeaders(password) });
 }

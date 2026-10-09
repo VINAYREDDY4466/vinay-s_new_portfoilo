@@ -1,10 +1,10 @@
 import { json } from './lib/http.js';
 import { handleContact } from './routes/contact.js';
-import { handleMessages } from './routes/messages.js';
+import { handleDeleteMessage, handleListMessages } from './routes/messages.js';
 
 const routes = {
   '/api/contact': { POST: handleContact },
-  '/api/messages': { GET: handleMessages },
+  '/api/messages': { GET: handleListMessages, DELETE: handleDeleteMessage },
 };
 
 export default {
