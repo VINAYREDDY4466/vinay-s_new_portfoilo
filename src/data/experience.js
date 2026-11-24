@@ -30,9 +30,9 @@ export const experience = [
     summary:
       'Joined a freelance development team as a junior developer, building web applications for US-based clients and growing into full-stack work.',
     achievements: [
-      'Worked with the team to build and deploy scalable full-stack applications, contributing across frontend and backend.',
-      'Helped deliver client projects ranging from static websites to fully functional web applications.',
-      'Contributed features to a CRM tool built by the team.',
+      'Built React frontends and Node.js/Express REST APIs for US clients, from static sites through complete web applications.',
+      'Shipped CRM features across the UI and the API — forms, data views and MongoDB-backed endpoints.',
+      'Deployed those apps with Docker and Nginx using Git-based releases, automated builds and environment-specific configs.',
     ],
   },
   {
