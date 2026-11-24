@@ -33,7 +33,7 @@ export default function Skills() {
           index="02"
           eyebrow="Toolkit"
           title="Technologies I build with"
-          description="A modern, battle-tested stack for shipping products that are fast, secure and a joy to use."
+          description="The tools I use to design, build, deploy and support production software."
         />
       </div>
 
@@ -42,7 +42,7 @@ export default function Skills() {
         <Marquee items={allSkills.slice(middle)} renderItem={renderMutedSkill} duration={45} reverse />
       </div>
 
-      <div className="container mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="container mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {skillGroups.map(({ title, skills }, index) => (
           <Reveal key={title} delay={index * 0.08}>
             <SpotlightCard className="h-full p-6">

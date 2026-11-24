@@ -35,6 +35,9 @@ export default function Hero() {
           <Button href={profile.resume} variant="ghost" icon={DownloadIcon} download={profile.resumeFileName}>
             Download CV
           </Button>
+          <Button href={profile.resumeAts} variant="ghost" icon={DownloadIcon} download={profile.resumeAtsFileName}>
+            ATS resume
+          </Button>
         </motion.div>
 
         <motion.div {...fadeUp(0.9)} className="mt-14 flex flex-wrap items-center gap-6">

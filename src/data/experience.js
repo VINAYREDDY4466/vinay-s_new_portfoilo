@@ -9,13 +9,15 @@ export const experience = [
     location: '',
     start: 'Sep 2025',
     end: null,
-    summary:
-      'Building two SaaS products for NHRT, the parent company — Enculture and Enculture Assessments.',
+    summary: 'Designing and shipping features for Enculture Assessments, an enterprise SaaS platform used by 20,000+ people a month.',
     achievements: [
-      'Built Enculture Assessments single-handedly, end to end — product scoping, architecture, database design, deployment and operations.',
-      'Scaled the platform to 20,000+ monthly active users.',
-      'Set up its cloud infrastructure on AWS and Vercel with automated CI/CD on GitHub Actions.',
-      'Contributed features to Enculture, the company’s flagship SaaS product.',
+      'Designed and developed features for Enculture Assessments, an enterprise SaaS platform serving 20,000+ monthly active users.',
+      'Contributed to system architecture, database design, frontend development and backend API implementation.',
+      'Developed and maintained REST APIs using Node.js, Express.js and MongoDB.',
+      'Integrated AI-powered features using OpenAI APIs, RAG pipelines, embeddings and vector search.',
+      'Implemented automated CI/CD workflows using GitHub Actions.',
+      'Worked on cloud infrastructure, application deployment and production monitoring using AWS and Docker.',
+      'Collaborated on enterprise product features, integrations and platform improvements.',
     ],
   },
   {
@@ -27,12 +29,13 @@ export const experience = [
     location: '',
     start: 'Jan 2024',
     end: 'Jun 2025',
-    summary:
-      'Joined a freelance development team as a junior developer, building web applications for US-based clients and growing into full-stack work.',
+    summary: 'Built web applications and CRM features for US-based clients, from React interfaces through Node.js APIs and Docker deployments.',
     achievements: [
-      'Built React frontends and Node.js/Express REST APIs for US clients, from static sites through complete web applications.',
-      'Shipped CRM features across the UI and the API — forms, data views and MongoDB-backed endpoints.',
-      'Deployed those apps with Docker and Nginx using Git-based releases, automated builds and environment-specific configs.',
+      'Developed responsive web applications using React.js, JavaScript and Tailwind CSS for US-based clients.',
+      'Designed and implemented backend REST APIs using Node.js and Express.js.',
+      'Developed CRM functionalities, including forms, data management interfaces and MongoDB-backed API endpoints.',
+      'Containerized and deployed applications using Docker and configured Nginx for application hosting.',
+      'Worked with Git-based development workflows, environment configurations and application releases.',
     ],
   },
   {
@@ -47,7 +50,7 @@ export const experience = [
     summary: 'Where I built my engineering foundation.',
     achievements: [
       'Built CRUD features across the MERN stack — MongoDB, Express, React and Node.js.',
-      'Learned Java and core software engineering fundamentals.',
+      'Learned core software engineering fundamentals while shipping those features.',
     ],
   },
 ];

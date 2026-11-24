@@ -64,7 +64,7 @@ export const services = [
     id: 'cloud',
     title: 'Cloud & DevOps',
     description: 'Production-grade infrastructure with automated deployments and room to scale.',
-    deliverables: ['AWS & Vercel', 'Docker & Kubernetes', 'CI/CD with GitHub Actions'],
+    deliverables: ['AWS & Docker', 'Nginx', 'CI/CD with GitHub Actions'],
     icon: CloudIcon,
   },
   {

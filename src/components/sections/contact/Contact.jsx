@@ -41,6 +41,9 @@ export default function Contact() {
           <Button href={profile.resume} variant="ghost" icon={DownloadIcon} download={profile.resumeFileName}>
             Resume
           </Button>
+          <Button href={profile.resumeAts} variant="ghost" icon={DownloadIcon} download={profile.resumeAtsFileName}>
+            ATS resume
+          </Button>
         </Reveal>
 
         <Reveal delay={0.36} className="mt-12 max-w-3xl">

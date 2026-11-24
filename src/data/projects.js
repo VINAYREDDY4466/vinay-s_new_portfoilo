@@ -4,39 +4,39 @@
 
 export const projects = [
   {
+    id: 'enculture-assessments',
+    title: 'Enculture Assessments',
+    summary:
+      'Enterprise multi-tenant assessment platform for 20,000+ monthly users, with React workflows, Node.js and MongoDB services, RAG, and AWS deployments through GitHub Actions.',
+    image: '',
+    category: 'Full-Stack',
+    year: '2025',
+    featured: true,
+    tech: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'AWS', 'Docker', 'OpenAI', 'RAG'],
+    links: { live: '', github: '' },
+  },
+  {
     id: 'enzo',
     title: 'ENZO',
     summary:
-      'An enterprise employee engagement platform that connects to HRMS systems and uses conversational AI and intelligent nudges to personalize employee communication.',
+      'Employee engagement platform that integrates with HRMS systems, with a React admin portal, real-time AI chat over WebSockets, and AWS, FastAPI, Redis and ClickHouse services.',
     image: '',
     category: 'Full-Stack',
     year: '2026',
-    featured: true,
-    tech: ['React', 'TypeScript', 'Node.js', 'FastAPI', 'AWS', 'ClickHouse'],
+    featured: false,
+    tech: ['React', 'TypeScript', 'Node.js', 'FastAPI', 'Redis', 'AWS', 'ClickHouse'],
     links: { live: '', github: '' },
   },
   {
     id: 'honestpane',
     title: 'Honestpane',
     summary:
-      'A full-stack interview integrity platform that detects known AI interview tools, streams review signals to HR, and unlocks the meeting only when the monitoring agent is connected.',
+      'Interview integrity platform with a React dashboard, Node.js session APIs, a Rust Linux agent and browser extension, and heartbeat checks before a meeting unlocks.',
     image: '',
     category: 'Full-Stack',
     year: '2026',
-    featured: true,
-    tech: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'Rust', 'AWS'],
-    links: { live: '', github: '' },
-  },
-  {
-    id: 'enculture-assessments',
-    title: 'Enculture Assessments',
-    summary:
-      'A SaaS assessment platform built solo, end to end — architecture, product, RAG features and production on AWS and Vercel, now serving 20,000+ monthly users.',
-    image: '',
-    category: 'Full-Stack',
-    year: '2025',
-    featured: true,
-    tech: ['AWS', 'Vercel', 'Docker', 'Kubernetes', 'RAG', 'GitHub Actions'],
+    featured: false,
+    tech: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'Rust', 'AWS', 'Cloudflare'],
     links: { live: '', github: '' },
   },
   {
